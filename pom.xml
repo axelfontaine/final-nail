@@ -4,7 +4,7 @@
 
     <groupId>com.axelfontaine.blog</groupId>
     <artifactId>maven-release-final-nail</artifactId>
-    <version>3</version>
+    <version>0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>maven-release-final-nail</name>
@@ -71,6 +71,7 @@
                 <version>1.8.1</version>
                 <configuration>
                     <tag>${project.artifactId}-${project.version}</tag>
+                    <pushChanges>false</pushChanges>
                 </configuration>
             </plugin>
         </plugins>
