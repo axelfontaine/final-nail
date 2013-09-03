@@ -71,7 +71,6 @@
                 <version>1.8.1</version>
                 <configuration>
                     <tag>${project.artifactId}-${project.version}</tag>
-                    <pushChanges>false</pushChanges>
                 </configuration>
             </plugin>
         </plugins>
